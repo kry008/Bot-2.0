@@ -1,0 +1,12 @@
+{
+    "watch": ["commands", "deploy-commands.js", "index.js"],
+    "execMap": {
+      "js": "node"
+    },
+    "events": {
+      "restart": "node deploy-commands.js"
+    },
+    "ignore": ["node_modules"],
+    "ext": "js,json"
+  }
+  

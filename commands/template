@@ -1,0 +1,28 @@
+module.exports = {
+    name: '',
+    description: '',
+    help: '',
+    arguments: [
+        {
+            name: '',
+            description: '',
+            type: 3,
+            required: false,
+        }
+    ],
+    options: [],
+    slash: true,
+    text: true,
+    admin: false,
+    requireKick: false,
+    requireBan: false,
+    canBeUsedInDm: true,
+    contexts: ['GUILD_TEXT', 'GUILD_VOICE', 'DM'],
+    integration_types: [0,1],
+    execute(message, args) {
+        message.channel.send();
+    },
+    executeSlash(interaction) {
+        interaction.reply();
+    },
+};

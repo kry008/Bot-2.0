@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Pokémon Red and Blue",
+        "year": 1996
+    },
+    {
+        "id": 2,
+        "name": "Pokémon Yellow",
+        "year": 1998
+    },
+    {
+        "id": 3,
+        "name": "Pokémon Gold and Silver",
+        "year": 1999
+    }
+]

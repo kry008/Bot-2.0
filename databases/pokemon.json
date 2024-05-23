@@ -1,0 +1,230 @@
+[
+    {
+        "number": 1,
+        "name": "Bulbasaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": "0.7 m",
+        "weight": "6.9 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Bulbasaur is the first Pokémon in the National Pokédex.",
+            "Bulbasaur is the only dual-type Pokémon in the National Pokédex that is both Poison and Grass type.",
+            "Bulbasaur is the only Pokémon that can learn Frenzy Plant, Blast Burn, and Hydro Cannon."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    },
+    {
+        "number": 2,
+        "name": "Ivysaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": "1.0 m",
+        "weight": "13.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Ivysaur is the evolved form of Bulbasaur.",
+            "Ivysaur is the only Pokémon that can learn Frenzy Plant, Blast Burn, and Hydro Cannon."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+    },
+    {
+        "number": 3,
+        "name": "Venusaur",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": "2.0 m",
+        "weight": "100.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Venusaur is the evolved form of Ivysaur.",
+            "Venusaur is the only Pokémon that can learn Frenzy Plant, Blast Burn, and Hydro Cannon."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+    },
+    {
+        "number": 4,
+        "name": "Charmander",
+        "type": [
+            "Fire"
+        ],
+        "height": "0.6 m",
+        "weight": "8.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Charmander is the first Fire-type Pokémon in the National Pokédex.",
+            "Charmander is the only Pokémon that can learn Blast Burn."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+    },
+    {
+        "number": 5,
+        "name": "Charmeleon",
+        "type": [
+            "Fire"
+        ],
+        "height": "1.1 m",
+        "weight": "19.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Charmeleon is the evolved form of Charmander.",
+            "Charmeleon is the only Pokémon that can learn Blast Burn."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+    },
+    {
+        "number": 6,
+        "name": "Charizard",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "height": "1.7 m",
+        "weight": "90.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Charizard is the evolved form of Charmeleon.",
+            "Charizard is the only Pokémon that can learn Blast Burn."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    },
+    {
+        "number": 7,
+        "name": "Squirtle",
+        "type": [
+            "Water"
+        ],
+        "height": "0.5 m",
+        "weight": "9.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Squirtle is the first Water-type Pokémon in the National Pokédex.",
+            "Squirtle is the only Pokémon that can learn Hydro Cannon."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+    },
+    {
+        "number": 8,
+        "name": "Wartortle",
+        "type": [
+            "Water"
+        ],
+        "height": "1.0 m",
+        "weight": "22.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Wartortle is the evolved form of Squirtle.",
+            "Wartortle is the only Pokémon that can learn Hydro Cannon."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+    },
+    {
+        "number": 9,
+        "name": "Blastoise",
+        "type": [
+            "Water"
+        ],
+        "height": "1.6 m",
+        "weight": "85.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Blastoise is the evolved form of Wartortle.",
+            "Blastoise is the only Pokémon that can learn Hydro Cannon."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+    },
+    {
+        "number": 10,
+        "name": "Caterpie",
+        "type": [
+            "Bug"
+        ],
+        "height": "0.3 m",
+        "weight": "2.9 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Caterpie is the first Bug-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+    },
+    {
+        "number": 11,
+        "name": "Metapod",
+        "type": [
+            "Bug"
+        ],
+        "height": "0.7 m",
+        "weight": "9.9 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Metapod is the evolved form of Caterpie."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+    },
+    {
+        "number": 12,
+        "name": "Butterfree",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "height": "1.1 m",
+        "weight": "32.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Butterfree is the evolved form of Metapod."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+    },
+    {
+        "number": 13,
+        "name": "Weedle",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "height": "0.3 m",
+        "weight": "3.2 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Weedle is the first Bug-type Pokémon in the National Pokédex that is also Poison type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+    },
+    {
+        "number": 14,
+        "name": "Kakuna",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "height": "0.6 m",
+        "weight": "10.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Kakuna is the evolved form of Weedle."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+    },
+    {
+        "number": 15,
+        "name": "Beedrill",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "height": "1.0 m",
+        "weight": "29.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Beedrill is the evolved form of Kakuna."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+    }
+]
