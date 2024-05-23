@@ -1,4 +1,4 @@
-//https://date.nager.at/api/v3/LongWeekend/year/country_two_letter_code
+//https://date.nager.at/api/v3/LongWeekend/year/country_two_letter_code 
 function returnLongWeekends(year, country) {
     //check if year is -1 or 0 or +1
     var currentYear = new Date().getFullYear();
