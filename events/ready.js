@@ -1,10 +1,11 @@
 const { Events } = require('discord.js');
+const { ActivityType } = require('discord.js');
 
 module.exports = {
 	name: Events.ClientReady,
 	once: true,
 	execute(client) {
 		console.log(`Ready! Logged in as ${client.user.tag}`);
-		client.user.setActivity('a game', { type: 'PLAYING' });
+		client.user.setActivity('kry008.xyz/bot/i', { type: ActivityType.PLAYING });
 	},
 };
