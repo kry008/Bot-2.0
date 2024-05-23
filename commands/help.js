@@ -89,7 +89,8 @@ module.exports = {
         const command = getCommand(args[0]);
         if(command === null)
         {
-            message.channel.send('Command not found');
+            //send all commands
+            const commands = allCommandsNames();
             return;
         }
         message.channel.send('Name: ' + command.name + '\nDescription: ' + command.description + '\nHelp: ' + command.help);
@@ -98,7 +99,9 @@ module.exports = {
         const command = getCommand(interaction.options.getString('command'));
         if(command === null)
         {
-            interaction.reply('Command not found');
+            //send all commands
+            const commands = allCommandsNames();
+            interaction.reply(commands);
             return;
         }
         interaction.reply('Name: ' + command.name + '\nDescription: ' + command.description + '\nHelp: ' + command.help);
