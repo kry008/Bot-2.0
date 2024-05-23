@@ -1,7 +1,18 @@
 function returnDog() {
+  //https://random.dog/woof.json
+  //random 1 or 2
+  var random = Math.floor(Math.random() * 2) + 1;
+  if (random === 1) {
+    return fetch('https://random.dog/woof.json')
+      .then(response => response.json())
+      .then(data => data.url);
+  }
+  else
+  {
   return fetch('https://dog.ceo/api/breeds/image/random')
     .then(response => response.json())
     .then(data => data.message);
+  }
 }
 
 module.exports = {
