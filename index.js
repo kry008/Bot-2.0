@@ -1,3 +1,4 @@
+//Author: KRY008
 const { Client, Events, GatewayIntentBits, Collection, PermissionsBitField } = require('discord.js');
 const { token, prefix, wwwport } = require('./config.json');
 const fs = require('fs');
