@@ -226,5 +226,598 @@
             "Beedrill is the evolved form of Kakuna."
         ],
         "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+    },
+    {
+        "number": 16,
+        "name": "Pidgey",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": "0.3 m",
+        "weight": "1.8 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Pidgey is the first Normal-type Pokémon in the National Pokédex that is also Flying type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+    },
+    {
+        "number": 17,
+        "name": "Pidgeotto",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": "1.1 m",
+        "weight": "30.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Pidgeotto is the evolved form of Pidgey."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+    },
+    {
+        "number": 18,
+        "name": "Pidgeot",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": "1.5 m",
+        "weight": "39.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Pidgeot is the evolved form of Pidgeotto."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+    },
+    {
+        "number": 19,
+        "name": "Rattata",
+        "type": [
+            "Normal"
+        ],
+        "height": "0.3 m",
+        "weight": "3.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Rattata is the first Normal-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+    },
+    {
+        "number": 20,
+        "name": "Raticate",
+        "type": [
+            "Normal"
+        ],
+        "height": "0.7 m",
+        "weight": "18.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Raticate is the evolved form of Rattata."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+    },
+    {
+        "number": 21,
+        "name": "Spearow",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": "0.3 m",
+        "weight": "2.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Spearow is the first Normal-type Pokémon in the National Pokédex that is also Flying type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+    },
+    {
+        "number": 22,
+        "name": "Fearow",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "height": "1.2 m",
+        "weight": "38.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Fearow is the evolved form of Spearow."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+    },
+    {
+        "number": 23,
+        "name": "Ekans",
+        "type": [
+            "Poison"
+        ],
+        "height": "2.0 m",
+        "weight": "6.9 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Ekans is the first Poison-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+    },
+    {
+        "number": 24,
+        "name": "Arbok",
+        "type": [
+            "Poison"
+        ],
+        "height": "3.5 m",
+        "weight": "65.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Arbok is the evolved form of Ekans."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+    },
+    {
+        "number": 25,
+        "name": "Pikachu",
+        "type": [
+            "Electric"
+        ],
+        "height": "0.4 m",
+        "weight": "6.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Pikachu is the first Electric-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    },
+    {
+        "number": 26,
+        "name": "Raichu",
+        "type": [
+            "Electric"
+        ],
+        "height": "0.8 m",
+        "weight": "30.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Raichu is the evolved form of Pikachu."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+    },
+    {
+        "number": 27,
+        "name": "Sandshrew",
+        "type": [
+            "Ground"
+        ],
+        "height": "0.6 m",
+        "weight": "12.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Sandshrew is the first Ground-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+    },
+    {
+        "number": 28,
+        "name": "Sandslash",
+        "type": [
+            "Ground"
+        ],
+        "height": "1.0 m",
+        "weight": "29.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Sandslash is the evolved form of Sandshrew."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png"
+    },
+    {
+        "number": 29,
+        "name": "Nidoran♀",
+        "type": [
+            "Poison"
+        ],
+        "height": "0.4 m",
+        "weight": "7.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "This pokémon doesn't have other gender."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png"
+    },
+    {
+        "number": 30,
+        "name": "Nidorina",
+        "type": [
+            "Poison"
+        ],
+        "height": "0.8 m",
+        "weight": "20.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Nidorina is the evolved form of Nidoran♀."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png"
+    },
+    {
+        "number": 31,
+        "name": "Nidoqueen",
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "height": "1.3 m",
+        "weight": "60.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Nidoqueen is the evolved form of Nidorina."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+    },
+    {
+        "number": 32,
+        "name": "Nidoran♂",
+        "type": [
+            "Poison"
+        ],
+        "height": "0.5 m",
+        "weight": "9.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "This pokémon doesn't have other gender."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+    },
+    {
+        "number": 33,
+        "name": "Nidorino",
+        "type": [
+            "Poison"
+        ],
+        "height": "0.9 m",
+        "weight": "19.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Nidorino is the evolved form of Nidoran♂."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+    },
+    {
+        "number": 34,
+        "name": "Nidoking",
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "height": "1.4 m",
+        "weight": "62.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Nidoking is the evolved form of Nidorino."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+    },
+    {
+        "number": 35,
+        "name": "Clefairy",
+        "type": [
+            "Fairy"
+        ],
+        "height": "0.6 m",
+        "weight": "7.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Clefairy is the first Fairy-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+    },
+    {
+        "number": 36,
+        "name": "Clefable",
+        "type": [
+            "Fairy"
+        ],
+        "height": "1.3 m",
+        "weight": "40.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Clefable is the evolved form of Clefairy."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+    },
+    {
+        "number": 37,
+        "name": "Vulpix",
+        "type": [
+            "Fire"
+        ],
+        "height": "0.6 m",
+        "weight": "9.9 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Vulpix is the first Fire-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+    },
+    {
+        "number": 38,
+        "name": "Ninetales",
+        "type": [
+            "Fire"
+        ],
+        "height": "1.1 m",
+        "weight": "19.9 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Ninetales is the evolved form of Vulpix."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+    },
+    {
+        "number": 39,
+        "name": "Jigglypuff",
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "height": "0.5 m",
+        "weight": "5.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Jigglypuff is the first Normal-type Pokémon in the National Pokédex that is also Fairy type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+    },
+    {
+        "number": 40,
+        "name": "Wigglytuff",
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "height": "1.0 m",
+        "weight": "12.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Wigglytuff is the evolved form of Jigglypuff."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+    },
+    {
+        "number": 41,
+        "name": "Zubat",
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "height": "0.8 m",
+        "weight": "7.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Zubat is the first Poison-type Pokémon in the National Pokédex that is also Flying type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png"
+    },
+    {
+        "number": 42,
+        "name": "Golbat",
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "height": "1.6 m",
+        "weight": "55.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Golbat is the evolved form of Zubat."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png"
+    },
+    {
+        "number": 43,
+        "name": "Oddish",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": "0.5 m",
+        "weight": "5.4 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Oddish is the first Grass-type Pokémon in the National Pokédex that is also Poison type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png"
+    },
+    {
+        "number": 44,
+        "name": "Gloom",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": "0.8 m",
+        "weight": "8.6 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Gloom is the evolved form of Oddish."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+    },
+    {
+        "number": 45,
+        "name": "Vileplume",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "height": "1.2 m",
+        "weight": "18.6 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Vileplume is the evolved form of Gloom."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png"
+    },
+    {
+        "number": 46,
+        "name": "Paras",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "height": "0.3 m",
+        "weight": "5.4 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Paras is the first Bug-type Pokémon in the National Pokédex that is also Grass type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+    },
+    {
+        "number": 47,
+        "name": "Parasect",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "height": "1.0 m",
+        "weight": "29.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Parasect is the evolved form of Paras."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+    },
+    {
+        "number": 48,
+        "name": "Venonat",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "height": "1.0 m",
+        "weight": "30.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Venonat is the first Bug-type Pokémon in the National Pokédex that is also Poison type."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+    },
+    {
+        "number": 49,
+        "name": "Venomoth",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "height": "1.5 m",
+        "weight": "12.5 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Venomoth is the evolved form of Venonat."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png"
+    },
+    {
+        "number": 50,
+        "name": "Diglett",
+        "type": [
+            "Ground"
+        ],
+        "height": "0.2 m",
+        "weight": "0.8 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Diglett is the first Ground-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png"
+    },
+    {
+        "number": 51,
+        "name": "Dugtrio",
+        "type": [
+            "Ground"
+        ],
+        "height": "0.7 m",
+        "weight": "33.3 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Dugtrio is the evolved form of Diglett."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png"
+    },
+    {
+        "number": 52,
+        "name": "Meowth",
+        "type": [
+            "Normal"
+        ],
+        "height": "0.4 m",
+        "weight": "4.2 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Meowth is the first Normal-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+    },
+    {
+        "number": 53,
+        "name": "Persian",
+        "type": [
+            "Normal"
+        ],
+        "height": "1.0 m",
+        "weight": "32.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Persian is the evolved form of Meowth."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png"
+    },
+    {
+        "number": 54,
+        "name": "Psyduck",
+        "type": [
+            "Water"
+        ],
+        "height": "0.8 m",
+        "weight": "19.6 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Psyduck is the first Water-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+    },
+    {
+        "number": 55,
+        "name": "Golduck",
+        "type": [
+            "Water"
+        ],
+        "height": "1.7 m",
+        "weight": "76.6 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Golduck is the evolved form of Psyduck."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png"
+    },
+    {
+        "number": 56,
+        "name": "Mankey",
+        "type": [
+            "Fighting"
+        ],
+        "height": "0.5 m",
+        "weight": "28.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Mankey is the first Fighting-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png"
     }
+        
 ]

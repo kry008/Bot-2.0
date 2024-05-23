@@ -39,7 +39,7 @@ function randomPokemon() {
     //find game id in pokemon_games.json
     const game = pokemon_games.find(game => game.id === randomPokemon.first_appeared);
     //get numbers of facts and get random fact
-    const fact = randomPokemon.some_facts[Math.floor(Math.random() * randomPokemon.some_facts.length)];
+    const fact = null;//randomPokemon.some_facts[Math.floor(Math.random() * randomPokemon.some_facts.length)];
     //get types of pokemon
     const types = randomPokemon.type.join(', ');
     return `**${randomPokemon.name}**\nTypes: ${types}\nHeight: ${randomPokemon.height}\nWeight: ${randomPokemon.weight}\nFirst appeared in: ${game.name} (${game.year})\n${fact}\n${randomPokemon.img}`;
@@ -51,7 +51,7 @@ function pokemonNumber(number) {
         return 'Pokemon not found **FUNCTION NOT FINISHED**';
     }
     const game = pokemon_games.find(game => game.id === pokemonNumber.first_appeared);
-    const fact = pokemonNumber.some_facts[Math.floor(Math.random() * pokemonNumber.some_facts.length)];
+    const fact = null; //pokemonNumber.some_facts[Math.floor(Math.random() * pokemonNumber.some_facts.length)];
     const types = pokemonNumber.type.join(', ');
     return `**${pokemonNumber.name}**\nTypes: ${types}\nHeight: ${pokemonNumber.height}\nWeight: ${pokemonNumber.weight}\nFirst appeared in: ${game.name} (${game.year})\n${fact}`;
 }
@@ -62,7 +62,7 @@ function pokemonName(name) {
         return 'Pokemon not found **FUNCTION NOT FINISHED**';
     }
     const game = pokemon_games.find(game => game.id === pokemonName.first_appeared);
-    const fact = pokemonName.some_facts[Math.floor(Math.random() * pokemonName.some_facts.length)];
+    const fact = null;//pokemonName.some_facts[Math.floor(Math.random() * pokemonName.some_facts.length)];
     const types = pokemonName.type.join(', ');
     return `**${pokemonName.name}**\nTypes: ${types}\nHeight: ${pokemonName.height}\nWeight: ${pokemonName.weight}\nFirst appeared in: ${game.name} (${game.year})\n${fact}`;
 }

@@ -122,7 +122,7 @@ module.exports = {
         },
     ],
     slash: true,
-    text: true,
+    text: false,
     admin: false,
     requireKick: false,
     requireBan: false,
