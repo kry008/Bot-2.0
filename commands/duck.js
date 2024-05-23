@@ -21,6 +21,8 @@ module.exports = {
     execute: async (message, args) => {
         const duck = await returnDuck();
         message.channel.send(duck);
+        //react 🦆
+        message.react('🦆');
     },
     executeSlash: async interaction => {
         const duck = await returnDuck();
