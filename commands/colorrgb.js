@@ -49,26 +49,6 @@ module.exports = {
     name: 'colorrgb',
     description: 'converts a RGB color to HEX, HSL, and CMYK',
     help: 'This command converts a RGB color to HEX, HSL, and CMYK',
-    arguments: [
-        {
-            name: 'r',
-            type: 'INTEGER',
-            description: 'The red value (0-255)',
-            required: true,
-        },
-        {
-            name: 'g',
-            type: 'INTEGER',
-            description: 'The green value (0-255)',
-            required: true,
-        },
-        {
-            name: 'b',
-            type: 'INTEGER',
-            description: 'The blue value (0-255)',
-            required: true,
-        },
-    ],
     slash: true,
     text: true,
     admin: false,

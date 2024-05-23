@@ -2,14 +2,6 @@ module.exports = {
     name: 'ban',
     description: 'Bans a user from the server',
     help: 'This command is used to ban a user from the server. Requires the user to have the "Ban Members" permission. Requires the bot to have the "Ban Members" permission.',
-    arguments: [
-        {
-            name: 'user',
-            type: 'USER',
-            description: 'The user to ban',
-            required: true,
-        },
-    ],
     options: [
         {
             name: 'user',

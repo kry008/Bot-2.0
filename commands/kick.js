@@ -2,20 +2,6 @@ module.exports = {
     name: 'kick',
     description: 'Kicks a user from the server',
     help: 'Kicks a user from the server with a reason if provided. Requires the user to have the "Kick Members" permission. Requires the bot to have the "Kick Members" permission.',
-    arguments: [
-        {
-            name: 'user',
-            type: 'USER',
-            description: 'The user to kick',
-            required: true,
-        },
-        {
-            name: 'reason',
-            type: 'STRING',
-            description: 'The reason for the kick',
-            required: false,
-        },
-    ],
     options: [
         {
             name: 'user',

@@ -8,7 +8,6 @@ module.exports = {
     name: 'chuck',
     description: 'Get a random Chuck Norris joke',
     help: 'Get a random Chuck Norris joke',
-    arguments: [],
     options: [],
     slash: true,
     text: true,

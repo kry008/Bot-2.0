@@ -8,14 +8,6 @@ module.exports = {
     name: 'guessnumber',
     description: 'Guess a number between 1 and 100',
     help: 'Guess a number between 1 and 100',
-    arguments: [
-        {
-            name: 'number',
-            type: 'INTEGER',
-            description: 'Your guess',
-            required: true,
-        },
-    ],
     options: [
         {
             name: 'number',

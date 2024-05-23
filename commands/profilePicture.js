@@ -2,14 +2,6 @@ module.exports = {
     name: 'profilepicture',
     description: 'Get the profile picture of a user.',
     help: 'Get the profile picture of a user.',
-    arguments: [
-        {
-            name: 'user',
-            type: 'User',
-            description: 'The user to get the profile picture',
-            required: false
-        }
-    ],
     options: [
         {
             name: 'user',

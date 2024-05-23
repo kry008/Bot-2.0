@@ -71,20 +71,6 @@ module.exports = {
     name: 'pokemon',
     description: 'Get a random pokemon. **FUNCTION NOT FINISHED**',
     help: 'Get a random pokemon. **FUNCTION NOT FINISHED**',
-    arguments: [
-        {
-            name: 'pokemonname',
-            type: 'STRING',
-            description: 'Name of the pokemon you want to get information about',
-            required: false,
-        },
-        {
-            name: 'pokemonnumber',
-            type: 'INTEGER',
-            description: 'Number of the pokemon you want to get information about',
-            required: false,
-        },
-    ],
     options: [
         {
             name: 'pokemonname',

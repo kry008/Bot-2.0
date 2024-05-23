@@ -8,7 +8,6 @@ module.exports = {
     name: 'cat',
     description: 'Get a random cat picture',
     help: 'Get a random cat picture',
-    arguments: [],
     options: [],
     slash: true,
     text: true,

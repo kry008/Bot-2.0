@@ -15,14 +15,6 @@ module.exports = {
     name: 'waifu',
     description: 'Get a random waifu picture',
     help: 'Get a random waifu picture with the type you want',
-    arguments: [
-        {
-            name: 'type',
-            type: 'STRING',
-            description: 'The type of waifu picture you want',
-            required: true,
-        },
-    ],
     options: [
         {
             name: 'type',

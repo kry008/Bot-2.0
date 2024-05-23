@@ -2,14 +2,6 @@ module.exports = {
     name: 'argumentstest',
     description: 'Test command for args',
     help: 'This command is used to test the arguments of a command',
-    arguments: [
-        {
-            name: 'ANY',
-            type: 'ANY',
-            description: 'Any type of argument',
-            required: false,
-        },
-    ],
     options: [
         {
             name: 'type3',

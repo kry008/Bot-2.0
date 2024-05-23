@@ -2,14 +2,6 @@ module.exports = {
     name: '',
     description: '',
     help: '',
-    arguments: [
-        {
-            name: '',
-            description: '',
-            type: 3,
-            required: false,
-        }
-    ],
     options: [],
     slash: true,
     text: true,

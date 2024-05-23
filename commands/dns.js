@@ -4,14 +4,6 @@ module.exports = {
     name: 'dns',
     description: 'Look what is the IP of a domain. Requires a domain as argument.',
     help: 'Look what is the IP of a domain. Requires a domain as argument.',
-    arguments: [
-        {
-            name: 'domain',
-            type: 'STRING',
-            description: 'The domain to look up',
-            required: true,
-        },
-    ],
     options: [
         {
             name: 'domain',
