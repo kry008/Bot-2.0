@@ -9,6 +9,14 @@ function returnWaifu(type) {
         .then(response => response.json())
         .then(data => data.url);
 }
+function returnWaifuRandom() {
+    //check if the type is valid
+    const validTypes = ['waifu', 'neko', 'shinobu', 'megumin', 'bully', 'cuddle', 'cry', 'hug', 'awoo', 'kiss', 'lick', 'pat', 'smug', 'bonk', 'yeet', 'blush', 'smile', 'wave', 'highfive', 'handhold', 'nom', 'bite', 'glomp', 'slap', 'kill', 'kick', 'happy', 'wink', 'poke', 'dance', 'cringe'];
+    var type = validTypes[Math.floor(Math.random() * validTypes.length)];
+    return fetch(`https://api.waifu.pics/sfw/${type}`)
+        .then(response => response.json())
+        .then(data => data.url);
+}
 
 module.exports = {
     //make choose list
@@ -122,7 +130,7 @@ module.exports = {
         },
     ],
     slash: true,
-    text: false,
+    text: true,
     admin: false,
     requireKick: false,
     requireBan: false,
@@ -131,6 +139,11 @@ module.exports = {
     contexts: ['GUILD_TEXT', 'GUILD_VOICE', 'DM'],
     integration_types: [0,1],
     execute: async (message, args) => {
+        if(args.length === 0) {
+            const waifu = await returnWaifuRandom();
+            message.channel.send(waifu);
+            return;
+        }
         const waifu = await returnWaifu(args[0]);
         message.channel.send(waifu);
     },
