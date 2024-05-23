@@ -27,6 +27,7 @@ for (const file of commandFiles) {
         };
         commands.push(slashCommand);
     }
+    console.log(`Loaded command ${command.name}`);
 }
 
 
