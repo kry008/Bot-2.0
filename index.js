@@ -3,7 +3,7 @@ const { Client, Events, GatewayIntentBits, Collection, PermissionsBitField } = r
 const { token, prefix, wwwport } = require('./config.json');
 const fs = require('fs');
 const path = require('path');
-var http = require('http');
+/*var http = require('http');
 http.createServer(function (req, res) {
     //res.write('Strona domowa: Bot v2.0, link zaproszenia: https://discord.com/oauth2/authorize?client_id=883390927383724112');
     var json = {
@@ -14,7 +14,7 @@ http.createServer(function (req, res) {
     res.write(JSON.stringify(json));
     res.end();
   }).listen(wwwport || 8080);
-
+*/
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
