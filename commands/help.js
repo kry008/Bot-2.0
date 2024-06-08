@@ -1,5 +1,6 @@
 //optiona name of the command
 var fs = require('fs');
+const { prefix } = require('../config.json');
 function getAllCommands(client) {
     const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
     const allCommands = [];
@@ -19,7 +20,7 @@ function allCommandsNames(guild = true)
         for(const command of commands)
         {
             if(command.admin === false)
-                str += command.name + '\n';
+                str += command.name + ', ';
         }
         return str;
     }
@@ -31,7 +32,7 @@ function allCommandsNames(guild = true)
         {
             if(command.canBeUsedInDm)
                 if(command.admin === false)
-                    str += command.name + '\n';
+                    str += command.name + ', ';
         }
         return str;
     }
@@ -83,7 +84,7 @@ module.exports = {
         if(args.length === 0)
         {
             const commands = allCommandsNames();
-            message.channel.send(commands);
+            message.channel.send(`Hi, my prefix is \`${prefix}\`\nIf you want to get help with a command, type \`${prefix}help <command>\` or \`/help <command>\` \n` + commands);
             return;
         }
         const command = getCommand(args[0]);
@@ -91,6 +92,8 @@ module.exports = {
         {
             //send all commands
             const commands = allCommandsNames();
+            message.channel.send(`Hi, my prefix is \`${prefix}\`\nIf you want to get help with a command, type \`${prefix}help <command>\` or \`/help <command>\` \n` + commands);
+
             return;
         }
         message.channel.send('Name: ' + command.name + '\nDescription: ' + command.description + '\nHelp: ' + command.help);
@@ -101,7 +104,7 @@ module.exports = {
         {
             //send all commands
             const commands = allCommandsNames();
-            interaction.reply(commands);
+            interaction.reply(`Hi, my prefix is \`${prefix}\`\nIf you want to get help with a command, type \`${prefix}help <command>\` or \`/help <command>\` \n` + commands);
             return;
         }
         interaction.reply('Name: ' + command.name + '\nDescription: ' + command.description + '\nHelp: ' + command.help);

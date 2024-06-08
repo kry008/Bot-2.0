@@ -6,6 +6,6 @@ module.exports = {
 	once: true,
 	execute(client) {
 		console.log(`Ready! Logged in as ${client.user.tag}`);
-		client.user.setActivity('kry008.xyz/bot/i', { type: ActivityType.PLAYING });
+		client.user.setActivity('kry008.xyz/bot/i | To see how to support type /supportbot', { type: ActivityType.PLAYING });
 	},
 };
