@@ -3,36 +3,6 @@ const fs = require('fs');
 const pokemon_games = JSON.parse(fs.readFileSync('databases/pokemon_games.json'));
 const pokemon = JSON.parse(fs.readFileSync('databases/pokemon.json'));
 
-/*pokemon.json
-[
-    {
-        "number": 1,
-        "name": "Bulbasaur",
-        "img": "https://en.wikipedia.org/wiki/Bulbasaur#/media/File:Pok%C3%A9mon_Bulbasaur_art.png",
-        "type": [
-            "Grass",
-            "Poison"
-        ],
-        "height": "0.7 m",
-        "weight": "6.9 kg",
-        "first_appeared": 1,
-        "some_facts": [
-            "Bulbasaur is the first Pokémon in the National Pokédex.",
-            "Bulbasaur is the only dual-type Pokémon in the National Pokédex that is both Poison and Grass type.",
-            "Bulbasaur is the only Pokémon that can learn Frenzy Plant, Blast Burn, and Hydro Cannon."
-        ]
-    },
-pokemon_games.json
-[
-    {
-        "id": 1,
-        "name": "Pokémon Red and Blue",
-        "year": 1996
-    }
-
-    */
-
-
 function randomPokemon() {
     //connect data from pokemon.json and pokemon_games.json
     const randomPokemon = pokemon[Math.floor(Math.random() * pokemon.length)];
