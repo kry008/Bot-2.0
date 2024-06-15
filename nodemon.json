@@ -1,5 +1,5 @@
 {
-    "watch": ["commands", "deploy-commands.js", "index.js"],
+    "watch": ["commands", "events", "deploy-commands.js", "index.js"],
     "execMap": {
       "js": "node"
     },

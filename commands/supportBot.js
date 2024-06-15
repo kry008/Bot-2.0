@@ -1,3 +1,4 @@
+const { EmbedBuilder } = require('discord.js');
 module.exports = {
     name: 'supportbot',
     description: 'How to support bot development?',
