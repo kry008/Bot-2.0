@@ -42,6 +42,16 @@ module.exports = {
         message.channel.send('This command can only be used as a slash command.');
     },
     executeSlash(interaction) {
+        //check if it is from guild
+        if (!interaction.guild) {
+            interaction.reply('This command can only be used in a server.');
+            return;
+        }
+        //check if bot is on this guild
+        if (!interaction.guild.available) {
+            interaction.reply('The bot is not available on this server.');
+            return;
+        }
         //check if the user has the required permissions
         if (!interaction.member.permissions.has('ADMINISTRATOR')) {
             interaction.reply('You need to have the administrator permission to use this command.');
