@@ -13,5 +13,95 @@
         "id": 3,
         "name": "Pokémon Gold and Silver",
         "year": 1999
+    },
+    {
+        "id": 4,
+        "name": "Pokémon Crystal",
+        "year": 2000
+    },
+    {
+        "id": 5,
+        "name": "Pokémon Ruby and Sapphire",
+        "year": 2002
+    },
+    {
+        "id": 6,
+        "name": "Pokémon FireRed and LeafGreen",
+        "year": 2004
+    },
+    {
+        "id": 7,
+        "name": "Pokémon Emerald",
+        "year": 2004
+    },
+    {
+        "id": 8,
+        "name": "Pokémon Diamond and Pearl",
+        "year": 2006
+    },
+    {
+        "id": 9,
+        "name": "Pokémon Platinum",
+        "year": 2008
+    },
+    {
+        "id": 10,
+        "name": "Pokémon HeartGold and SoulSilver",
+        "year": 2009
+    },
+    {
+        "id": 11,
+        "name": "Pokémon Black and White",
+        "year": 2010
+    },
+    {
+        "id": 12,
+        "name": "Pokémon Black 2 and White 2",
+        "year": 2012
+    },
+    {
+        "id": 13,
+        "name": "Pokémon X and Y",
+        "year": 2013
+    },
+    {
+        "id": 14,
+        "name": "Pokémon Omega Ruby and Alpha Sapphire",
+        "year": 2014
+    },
+    {
+        "id": 15,
+        "name": "Pokémon Sun and Moon",
+        "year": 2016
+    },
+    {
+        "id": 16,
+        "name": "Pokémon Ultra Sun and Ultra Moon",
+        "year": 2017
+    },
+    {
+        "id": 17,
+        "name": "Pokémon Let's Go, Pikachu! and Let's Go, Eevee!",
+        "year": 2018
+    },
+    {
+        "id": 18,
+        "name": "Pokémon Sword and Shield",
+        "year": 2019
+    },
+    {
+        "id": 19,
+        "name": "Pokémon Brilliant Diamond and Shining Pearl",
+        "year": 2021
+    },
+    {
+        "id": 20,
+        "name": "Pokémon Legends: Arceus",
+        "year": 2022
+    },
+    {
+        "id": 21,
+        "name": "Pokémon Scarlet and Violet",
+        "year": 2022
     }
 ]

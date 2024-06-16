@@ -818,6 +818,62 @@
             "Mankey is the first Fighting-type Pokémon in the National Pokédex."
         ],
         "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png"
+    },
+    {
+        "number": 57,
+        "name": "Primeape",
+        "type": [
+            "Fighting"
+        ],
+        "height": "1.0 m",
+        "weight": "32.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Primeape is the evolved form of Mankey."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png"
+    },
+    {
+        "number": 58,
+        "name": "Growlithe",
+        "type": [
+            "Fire"
+        ],
+        "height": "0.7 m",
+        "weight": "19.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Growlithe is the first Fire-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png"
+    },
+    {
+        "number": 59,
+        "name": "Arcanine",
+        "type": [
+            "Fire"
+        ],
+        "height": "1.9 m",
+        "weight": "155.0 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Arcanine is the evolved form of Growlithe."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png"
+    },
+    {
+        "number": 60,
+        "name": "Poliwag",
+        "type": [
+            "Water"
+        ],
+        "height": "0.6 m",
+        "weight": "12.4 kg",
+        "first_appeared": 1,
+        "some_facts": [
+            "Poliwag is the first Water-type Pokémon in the National Pokédex."
+        ],
+        "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png"
     }
         
 ]
