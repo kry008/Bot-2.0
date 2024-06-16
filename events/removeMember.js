@@ -32,7 +32,11 @@ module.exports = {
                         console.error("Goodbye channel not found.");
                     }
                 })
-                .catch(console.error);
+                .catch(
+                    data.goodbyeChannel = null,
+                    data.goodbye = false,
+                    fs.writeFileSync(filePath, JSON.stringify(data))
+                );
         }
         else
         {

@@ -49,7 +49,13 @@ module.exports = {
                         console.error("Welcome channel not found.");
                     }
                 })
-                .catch(console.error);
+                .catch(
+                    //if the channel is not found, set the welcome channel to null and hello to false
+                    data.helloChannel = null,
+                    data.hello = false,
+                    fs.writeFileSync(filePath, JSON.stringify(data))
+                    
+                );
         } else {
             return;
         }
