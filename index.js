@@ -105,12 +105,17 @@ client.on(Events.InteractionCreate, async interaction => {
     if (!command) return;
 
     try {
-        if(command.admin && !interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
-            await interaction.reply({ content: 'You do not have permission to use this command!', ephemeral: true });
+        if (!command.canBeUsedInDm && !interaction.guild) {
+            await interaction.reply({ content: 'This command can only be used in a server where bot is available.', ephemeral: true });
             return;
         }
-        if (!command.canBeUsedInDm && !interaction.guild) {
-            await interaction.reply({ content: 'This command can only be used in a server!', ephemeral: true });
+        try {
+            if(command.admin && !interaction.member.permissions.has(PermissionsBitField.Flags.Administrator)) {
+                await interaction.reply({ content: 'You do not have permission to use this command!', ephemeral: true });
+                return;
+            }
+        } catch (error) {
+            interaction.reply('You need to run this command within a server.');
             return;
         }
         if (command.requireKick && !interaction.member.permissions.has(PermissionsBitField.Flags.KickMembers)) {
