@@ -3,3 +3,4 @@ templates.file
 node_modules
 package-lock.json
 guilds-*.txt
+guilds/*.json

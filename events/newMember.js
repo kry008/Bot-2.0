@@ -1,28 +1,57 @@
 const { Events, EmbedBuilder } = require('discord.js');
+const fs = require('fs');
 function randomColor() {
     const r = Math.floor(Math.random() * 200) + 50;
     const g = Math.floor(Math.random() * 200) + 50;
     const b = Math.floor(Math.random() * 200) + 50;
     return `#${r.toString(16)}${g.toString(16)}${b.toString(16)}`;
 }
-module.exports = {
-	name: Events.GuildMemberAdd,
-    once: false,
-    execute(args) {
-        const { guild, user } = args;
-        const channel = guild.channels.cache.find(channel => ['new-member', 'new-users', 'hello', 'welcome'].includes(channel.name));
-        //find rules channel
-        const rulesChannel = guild.channels.cache.find(channel => ['rules', 'regulations', 'regulamin'].includes(channel.name));
-        if (!channel) return;
-        if(!rulesChannel) var text = 'Please read the rules in rules channel.';
-        else var text = `Please read the rules in ${rulesChannel} channel.`;
-        const embed = new EmbedBuilder()
-            .setTitle(`Welcome ${user.username}!`)
-            .setDescription(`Welcome to ${guild.name}! \n${text}`)
-            .setColor(randomColor())
-            .setThumbnail(user.avatarURL())
-            .setTimestamp();
-        channel.send({ embeds: [embed] });
 
+module.exports = {
+    name: Events.GuildMemberAdd,
+    once: false,
+    execute(member) {
+        const { guild, user } = member;
+        const filePath = `./guilds/guilds-${guild.id}.json`;
+
+        if (fs.existsSync(filePath)) {
+            const data = JSON.parse(fs.readFileSync(filePath));
+
+            if (!data.hello || !data.helloChannel) return;
+
+            let title = data.welcomeMessage && data.welcomeMessage.title ? data.welcomeMessage.title : "👋 Welcome!";
+            let description = data.welcomeMessage && data.welcomeMessage.content ? data.welcomeMessage.content.replace("{{USER}}", user.username) : `Welcome to the server, ${user.username}!`;
+            if(data.rulesChannel == null || data.rulesMessage == null)
+            {   
+                
+            }
+            else
+            {
+                //data.rulesMessage + #data.rulesChannel
+                description += "\n" + data.rulesMessage;
+                //replace {{RULES}} with the rules channel
+                description = description.replace("{{RULES}}", `<#${data.rulesChannel}>`);
+            }
+
+            const embed = new EmbedBuilder()
+                .setTitle(title)
+                .setDescription(description)
+                .setColor(randomColor())
+                .setThumbnail(user.avatarURL())
+                .setTimestamp();
+
+            guild.channels.fetch(data.helloChannel)
+                .then(channel => {
+                    if (channel) {
+                        channel.send({ embeds: [embed] })
+                            .catch(console.error);
+                    } else {
+                        console.error("Welcome channel not found.");
+                    }
+                })
+                .catch(console.error);
+        } else {
+            return;
+        }
     }
 };
