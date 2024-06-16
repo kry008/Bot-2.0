@@ -1,6 +1,6 @@
 const fs = require('fs');
 module.exports = {
-    name: 'exitmsg',
+    name: 'exitusermsg',
     description: 'Enable or disable the exit message and edit the exit message. To mention the user, use {{USER}}.',
     help: 'Function to edit the message that is sent when a user leaves the server, use {{USER}} to mention the user.',
     options: [
